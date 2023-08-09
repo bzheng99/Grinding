@@ -238,7 +238,7 @@ Grocery List
   background: var(--clr-primary-8);
   border-color: transparent;
   flex: 0 0 5rem;
-  display: grid;
+  display: inline-block;
   align-items: center;
   padding: 0.25rem;
   text-transform: capitalize;
@@ -249,6 +249,7 @@ Grocery List
   content: var(--clr-primary-5);
   transition: var(--transition);
   font-size: 0.85rem;
+  
 }
 .submit-btn:hover {
   background: var(--clr-primary-5);
