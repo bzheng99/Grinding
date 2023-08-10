@@ -5,7 +5,7 @@ const weatherDetails = document.querySelector('.weather-details');
 const error404 = document.querySelector('.not-found');
 
 search.addEventListener('click', () => {
-    const API_KEY = '9fb3a8b52f94341106d04eb9aedd2273';
+    const API_KEY = 'Your API Key';
     const city = document.querySelector('.search-box input').value;
 
     if (city === '')
@@ -49,7 +49,7 @@ search.addEventListener('click', () => {
                 case 'Clouds':
                     image.src = 'images/cloud.png';
                     break;
-                    
+
                 default:
                     image.src = '';
             }
